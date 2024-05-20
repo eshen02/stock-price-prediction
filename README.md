@@ -1,5 +1,6 @@
 # Stock Price Prediction Project
-User Guide
+The main goal of this project is to explore methods to augment stock price data with other data sets to determine whether augmenting data sets will improve prediction accuracy. For this project, historical stock price data will be combined with analysts’ buy/sell/hold ratings for that stock at that price. The augmented data will then be inputted into a Long-Short Term Memory (LSTM) model for training and prediction. 
+## User Guide
 1. Ensure python3 is installed
 2. Ensure all the .csv files are in the same directory as the main.py file
 3. Run the following: ./python3 main.py
